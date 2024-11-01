@@ -19,6 +19,8 @@ class Presupuestos
     public string NombreDestinatario { get => nombreDestinatario; set => nombreDestinatario = value; }
     internal List<PresupuestoDetalle> Detalle { get => detalle; set => detalle = value; }
 
+
+
     public int montoPresupuesto()
     {
         int monto = 0;
