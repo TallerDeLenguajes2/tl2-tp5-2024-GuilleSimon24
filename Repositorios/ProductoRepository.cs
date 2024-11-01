@@ -47,14 +47,61 @@ class ProductoRepository
 
         using (SqliteConnection sqlitecon = new SqliteConnection(cadenaConexion))
         {
+            SqliteCommand command = new SqliteCommand(query, sqlitecon);
+            sqlitecon.Open();
             using(SqlDataReader reader = command.ExecuteReader())
             {
                 while (reader.Read())
                 {
-                    Productos prod1 = new Productos(reader[0], reader[1], reader[2]);
-                    prods.Add(prod1);
+                    int id = convert.Toint32(reader["idProducto"]);
+                    string descrip = convert.Tostring(reader["Descripcion"]);
+                    int precio = convert.Toint32(reader["Precio"]);
+                    Productos prod1 = new Productos(id, descrip, precio);
+                    prods.Add(prod1);   
                 }
             }
+            sqlitecon.Close();
+        }
+        return prods;
+    }
+
+    public Productos GetProductoID(int id)
+    {
+        string query = @"SELECT idProducto, Descripcion, Precio FROM Productos WHERE idProducto = @idQuery";
+        using (SqliteConnection sqlitecon = new SqliteConnection(cadenaConexion))
+        {
+            SqliteCommand command = new SqliteCommand(query, sqlitecon);
+            sqlitecon.Open();
+
+            command.Parameters.Add(new SQLiteParameter("@idQuery", id));
+            
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Productos buscado = new Productos(convert.Toint32(reader[0]), convert.Tostring(reader[1]), convert.Toint32(reader[2]));
+                }                
+            }
+
+            sqlitecon.Close();
+        }
+
+        return buscado;
+    }
+
+    public void DeleteProducto(int id)
+    {
+        string query = @"DELETE FROM Productos WHERE idProducto = @idquery";
+        using (SqliteConnection sqlitecon = new SqliteConnection(cadenaConexion))
+        {
+            SqliteCommand command = new SqliteCommand(query, sqlitecon);
+            sqlitecon.Open();
+            
+            command.Parameters.Add(new SQLiteParameter("@idQuery", id));
+
+            command.ExecuteNonQuery();
+
+            sqlitecon.Close();
         }
     }
 }
