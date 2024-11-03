@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lsl4zXuXmVzByHcdEnuVCcvp2HHfIlGbgFpMV9T9KUWuTZY/QBKIA0UdVmA/OBA2f03JAHt2hIgggDGGXVY2yQ==",
+  "dgSpecHash": "ba25eVC30onQop/1eWw4oPq3UX6rXCFMJuQfX+uanoSmQ5vHJEW6J+eNgC36FlCyEyFQYCwGu59tx2AOCiqSYw==",
   "success": true,
-  "projectFilePath": "C:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\tl2-tp5-2024-GuilleSimon24.csproj",
+  "projectFilePath": "c:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\tl2-tp5-2024-GuilleSimon24.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.4\\microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\microsoft.data.sqlite\\8.0.10\\microsoft.data.sqlite.8.0.10.nupkg.sha512",

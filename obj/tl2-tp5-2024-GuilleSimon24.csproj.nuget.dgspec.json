@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\tl2-tp5-2024-GuilleSimon24.csproj": {}
+    "c:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\tl2-tp5-2024-GuilleSimon24.csproj": {}
   },
   "projects": {
-    "C:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\tl2-tp5-2024-GuilleSimon24.csproj": {
+    "c:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\tl2-tp5-2024-GuilleSimon24.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\tl2-tp5-2024-GuilleSimon24.csproj",
+        "projectUniqueName": "c:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\tl2-tp5-2024-GuilleSimon24.csproj",
         "projectName": "tl2-tp5-2024-GuilleSimon24",
-        "projectPath": "C:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\tl2-tp5-2024-GuilleSimon24.csproj",
+        "projectPath": "c:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\tl2-tp5-2024-GuilleSimon24.csproj",
         "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\obj\\",
+        "outputPath": "c:\\1_Guillermo\\Guardar\\Facultad\\TallerDeLenguajes2\\TP5-BaseDeDatos\\tl2-tp5-2024-GuilleSimon24\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

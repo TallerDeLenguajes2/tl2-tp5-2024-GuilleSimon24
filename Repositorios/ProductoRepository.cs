@@ -25,7 +25,7 @@ class ProductoRepository
     public void ModificarProducto(int id, Productos producto)
     {
         string query = @"UPDATE Productos SET Descripcion = '@descrip', Precio = '@precio' 
-        WHERE idPresupuesto = @idQuery;";
+        WHERE idProducto = @idQuery;";
 
         using (SqliteConnection sqlitecon = new SqliteConnection(cadenaConexion))
         {
